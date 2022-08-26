@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+h1, h2, h3{
+    font-family:'Rubik', sans-serif;;
+}
+
+body{
+    background: #0C0C0C;
+    font-family: 'Inter', sans-serif;
+}
+
+header::after{
+    content:'' ;
+    display: table;
+    clear: both;
+}
+
+.box{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.logo{
+    color:  #00a3ff;
+    float: left;
+    font-family: 'Rubik', sans-serif;
+    font-size: 3em;
+    padding-top: 10px;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding-top: 25px;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav input{
+    margin-left:70px ;
+    padding: 10px;
+    background-color: #151b26;
+    border-radius: 25px;
+}
+
+input::placeholder{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1em;
+    color: white;
+    opacity: 0.9;
+    letter-spacing: 1px;
+}
+
+/* ----------------------- BOTÕES DO FILTRO--------------------------*/
+
+.filter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.btn{
+    margin-left: 30px;
+    border-radius: 30px;
+    background: #0C0C0C;
+    color: white;
+    width: 108px;
+    height: 46px;
+    gap: 10px;
+    border:  2px solid #151B26
+
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: #00a3ff;
+    transition: 400ms;
+}
+
+button:first-child{
+    background:#151B26 ;
+    border: none;
+}
+
+/* ----------------------- CONTEÚDO DA PÁGINA--------------------------*/
+
+/* ----------------------- NOTICIA PRINCIPAL--------------------------*/
+
+.principal{
+    width: 80%;
+    height: 100px;
+    margin: 70px auto;
+}
+
+.principalNew{
+    width: 100%;    
+}
+
+.principalNew {
+    margin-top: 15px;
+    width: 100%;
+    height: 400;
+    justify-content: center;
+    height: 350px;
+    background-image: url(./src/saitama.png);
+    background-repeat: no-repeat; 
+    border-radius: 8px;
+}
+
+
+.titleNew{
+    text-transform: uppercase; 
+    width: 707px;
+    height: 64px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 64px;
+    padding-top: 150px;
+    padding-left: 45px;
+}
+
+.descriptionNew{
+    width: 50%;
+    color: white;
+    line-height: 160%;
+    padding-top: 70px;
+    padding-left: 45px;
+}
+
+/* ----------------------- ULTIMAS ATUALIZAÇÕES--------------------------*/
+
+.lastUpdates{
+    margin-top: 400px;
+    margin-left:150px;
+    width: 80%;
+    height: 100px;
+}
+
+.animeEpisode{
+    width: 188px;
+    cursor: pointer;
+}
+
+.animes{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.animeDescription{
+    display: flex;
+    justify-content: center;
+    width: 188px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.loadMore{
+   display:flex ;
+   justify-content: center;
+   width: 98%;
+   margin-top: 650px;
+   margin-bottom: 100px;
+}
+
+
+
+/* ----------------------- RODAPÉ--------------------------*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
